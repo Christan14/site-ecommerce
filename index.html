@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--header-->
+      <header>
+        <nav>
+          <!--logo-->
+          <div id="logo_sneakers">
+            <img src="./images/logo.svg" alt="logo sneakers" />
+          </div>
+          <!--button nav-->
+          <div class="button">
+            <div class="button_nav" id="collections">
+              <a href="#collections" class="link_nav">collections</a>
+            </div>
+            <div class="button_nav" id="Men">
+              <a href="#men" class="link_nav">Men</a>
+            </div>
+            <div class="button_nav" id="Women">
+              <a href="#women" class="link_nav">Women</a>
+            </div>
+            <div class="button_nav" id="About">
+              <a href="#About" class="link_nav">About</a>
+            </div>
+            <div class="button_nav" id="contact">
+              <a href="#contact" class="link_nav">Contact</a>
+            </div>
+          </div>
+
+          <div class="cart-avavtar-groupe">
+            <div class="btnCart">
+              <img src="./images/icon-cart.svg" alt="cart icon" />
+            </div>
+            <div class="profil">
+              <img id="avatar" src="./images/image-avatar.png" alt="avatatr" />
+            </div>
+          </div>
+        </nav>
+      </header>
+      <hr />
+
+      <div class="bloc">
+        
+        <div class="picture">
+          <!--J'ajouterai des baskets ici -->
+          <div class="pict">
+            <!--basket ici-->
+          </div>
+        </div>
+        <div class="bloc-descrip">
+          <div class="product">
+            <article>Sneaker Company</article>
+            <h1>fall limited edition eneakers</h1>
+          </div>
+          <div class="description">
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+          </div>
+          <div class="price-wapper">
+            <h2 class="price">$125.00</h2>
+            <h4 class="discount">50%</h4>
+          </div>
+          <div>
+            <h4 class="old-price">$250.00</h4>
+          </div>
+
+          <div class="count-btn-group">
+            <div class="counter-wrapper">
+              <img
+                id="btnMinus"
+                src="./images/icon-minus.svg"
+                alt="icon icon-minus"
+              />
+              <div class="counter">0</div>
+              <img id="btnPlus" src="./images/icon-plus.svg" alt="icon plus" />
+            </div>
+          </div>
+
+          <div class="btn">
+            <img src="./images/icon-cart.svg" alt="icon cart" />
+            <p>Add to cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

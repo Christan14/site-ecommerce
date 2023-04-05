@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@300;400;500&family=Nova+Round&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-VeryDarkBleu:hsl(220, 13%, 13%);
+    --clr-orange:hsl(26, 100%, 55%);
+    --clr-PaleOrange: hsl(25, 100%, 94%);
+    --clr-GrayishBlue: hsl(220, 14%, 75%);
+    --clr-LightGrayishBlue: hsl(223, 64%, 98%);
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Black: hsl(0, 0%, 0%);
+}
+
+body{
+    display: flex;
+    font-family: 'kumbh sans';
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: var(--clr-LightGrayishBlue);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo_sneakers{
+    margin: px;
+}
+
+.button{
+    display: flex;
+    margin-left: 50px;
+}
+
+.button_nav{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 25px;
+    
+}
+
+.cart-avavtar-groupe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32rem;
+}
+
+.btnCart{
+    cursor: pointer;
+}
+
+
+.profil{
+   display: flex;
+   margin-left: 20px;
+   width: 2rem; 
+   cursor: pointer;
+}
+
+#avatar{
+    width: 2rem;
+}
+
+.bloc{
+    gap: 2em;
+    display: flex;
+    padding: 2rem;
+    border: 1px solid red;
+}
+.picture{
+    width: 50%;
+    height: 25rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.bloc-descrip{
+    height: 25rem;
+
+    border: 1px solid yellow;
+}
+
+h1{
+    text-transform: capitalize;
+    margin: 1rem;
+}
+p{
+    margin: 1rem;
+    color: var(--clr-GrayishBlue);
+}
+
+article{
+    margin: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--clr-orange);
+}
