@@ -9,7 +9,6 @@
         "_productImages.scss",
         "_lightbox.scss",
         "_productInfo.scss",
-        "_footer.scss",
         "_mediaqueries.scss",
         "_media575px.scss",
         "_medialandscape.scss"
